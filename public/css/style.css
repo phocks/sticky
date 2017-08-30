@@ -46,6 +46,12 @@ div#sticky {
   position: sticky;
   top: 0px;
   z-index: -1;
+  min-height: 100vh;
+  background: url(https://cdn.glitch.com/b1521f3d-3fd9-4117-bcc3-7454928f0ae6%2Fearths-core.jpg?1504075060632) no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 @media all and (max-width: 600px) {
   p {
