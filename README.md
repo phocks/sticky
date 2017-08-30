@@ -1,27 +1,14 @@
-Welcome to the Glitch BETA
-=========================
+A position:sticky example
+============================
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+This is an example of how you might use the new css position:sticky property to fix a scrollyteller-like element to the screen while scrolling. This removes the slight jitter you get in the split second between scrolling and fixing the element.
 
-**Glitch** is the friendly commmunity where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+To see this demo [go here](https://sticky.glitch.me/).
 
-Find out more [about Glitch](https://glitch.com/about).
-
-
-Your Project
-------------
-
-On the front-end,
-- edit `public/client.js`, `public/style.css` and `views/index.html`
-- drag in `assets`, like images or music, to add them to your project
-
-On the back-end,
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+For an example on the old way try the [Australia as 100 people](http://www.abc.net.au/news/2017-06-27/census-australia-as-100-people/8634318) ABC article.
 
 
-Made by [Fog Creek](https://fogcreek.com/)
+Made by [Josh](https://ftwitter.com/phocks)
 -------------------
 
 \ ゜o゜)ノ
