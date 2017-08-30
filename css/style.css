@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Serif+Pro);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: Source Serif Pro, serif;
+  line-height: 1.5;
+  font-size: 1.3rem;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+p {
+  text-align: left;
+  margin: 0 auto 2em;
+  max-width: 880px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+p.piecemeal {
+  background: rgba(255, 255, 255, 0.5);
+  margin-bottom: 100vh;
+  padding: 2em;
+}
+p.clear {
+  height: 1px;
+}
+.scrolly-stage {
+  /* margin-bottom: 100vh; */
+}
+
+div#sticky {
+  font-family: Open Sans, sans-serif;
+  font-size: 1.1rem;
+  padding-top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  z-index: -1;
+}
+@media all and (max-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
+}
+div#sticky img {
+  width: 100%;
+  height: 100vh;
+  display: block;
+}
+
