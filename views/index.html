@@ -1,49 +1,64 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
   <meta charset="UTF-8">
   <title>A Sticky Scrolly</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/b1521f3d-3fd9-4117-bcc3-7454928f0ae6%2Ffavicon.png?1504073204632"/>
-  
+  <link rel="shortcut icon" type="image/png" href="https://cdn.glitch.com/b1521f3d-3fd9-4117-bcc3-7454928f0ae6%2Ffavicon.png?1504073204632"
+  />
+
 </head>
 
 <body>
-  
-    <h1>A sticky positioning example</h1>
-    <p>
-      This is an example of how you might use the relatively-new css <code>position:sticky</code> property to fix a scrollyteller-like element to the screen while scrolling. This removes the slight jitter you get in the split second between scrolling and fixing the element.
-    </p>
-    <p>Rank grass, waist high, grows upon the plain of Phutra&mdash;the gorgeous flowering grass of the inner world, each particular blade of which is tipped with a tiny, five-pointed blossom&mdash;brilliant little stars of varying colors that twinkle in the green foliage to add still another charm to the weird, yet lovely, landscape.</p>
 
-    <div class="scrolly-stage">  
+  <h1>A sticky positioning example</h1>
+  <p>
+      This is an example of how you might use the relatively-new css <code>position:sticky</code> property to fix a scrollyteller-like element to the screen while scrolling. This removes the slight jitter you get in the split second between scrolling and fixing the element.
+  </p>
+  <p>
+    Rank grass, waist high, grows upon the plain of Phutra&mdash;the gorgeous flowering grass of the inner world, each particular blade of which is tipped with a tiny, five-pointed blossom&mdash;brilliant little stars of varying colors that twinkle in the green foliage to add still another charm to the weird, yet lovely, landscape.
+  </p>
+
+  <div class="scrolly-stage">
     <div id="sticky">
-      
+
     </div>
 
-    <p class="piecemeal">But then the only aspect which attracted me was the distant hills in which I hoped to find sanctuary, and so I hastened on, trampling the myriad beauties beneath my hurrying feet.  Perry says that the force of gravity is less upon the surface of the inner world than upon that of the outer.  He explained it all to me once, but I was never particularly brilliant in such matters and so most of it has escaped me.  As I recall it the difference is due in some part to the counter-attraction of that portion of the earth's crust directly opposite the spot upon the face of Pellucidar at which one's calculations are being made.  Be that as it may, it always seemed to me that I moved with greater speed and agility within Pellucidar than upon the outer surface&mdash;there was a certain airy lightness of step that was most pleasing, and a feeling of bodily detachment which I can only compare with that occasionally experienced in dreams.</p>
+    <p class="piecemeal">
+        But then the only aspect which attracted me was the distant hills in which I hoped to find sanctuary, and so I hastened on, trampling the myriad beauties beneath my hurrying feet. Perry says that the force of gravity is less upon the surface of the inner world than upon that of the outer. He explained it all to me once, but I was never particularly brilliant in such matters and so most of it has escaped me. As I recall it the difference is due in some part to the counter-attraction of that portion of the earth's crust directly opposite the spot upon the face of Pellucidar at which one's calculations are being made. Be that as it may, it always seemed to me that I moved with greater speed and agility within Pellucidar than upon the outer surface&mdash;there was a certain airy lightness of step that was most pleasing, and a feeling of bodily detachment which I can only compare with that occasionally experienced in dreams.
+    </p>
 
-    <p class="piecemeal">And as I crossed Phutra's flower-bespangled plain that time I seemed almost to fly, though how much of the sensation was due to Perry's suggestion and how much to actuality I am sure I do not know.  The more I thought of Perry the less pleasure I took in my new-found freedom. There could be no liberty for me within Pellucidar unless the old man shared it with me, and only the hope that I might find some way to encompass his release kept me from turning back to Phutra.</p>
+    <p class="piecemeal">
+        And as I crossed Phutra's flower-bespangled plain that time I seemed almost to fly, though how much of the sensation wasdue to Perry's suggestion and how much to actuality I am sure I do not know. The more I thought of Perry the less pleasureI took in my new-found freedom. There could be no liberty for me within Pellucidar unless the old man shared it withme, and only the hope that I might find some way to encompass his release kept me from turning back to Phutra.
+    </p>
 
-    <p class="piecemeal">Just how I was to help Perry I could scarce imagine, but I hoped that some fortuitous circumstance might solve the problem for me.  It was quite evident however that little less than a miracle could aid me, for what could I accomplish in this strange world, naked and unarmed?  It was even doubtful that I could retrace my steps to Phutra should I once pass beyond view of the plain, and even were that possible, what aid could I bring to Perry no matter how far I wandered?</p>
+    <p class="piecemeal">
+        Just how I was to help Perry I could scarce imagine, but I hoped that some fortuitous circumstance might solve the problem for me. It was quite evident however that little less than a miracle could aid me, for what could I accomplish in this strange world, naked and unarmed? It was even doubtful that I could retrace my steps to Phutra should I once pass beyond view of the plain, and even were that possible, what aid could I bring to Perry no matter how far I wandered?
+    </p>
 
-    <p class="piecemeal">The case looked more and more hopeless the longer I viewed it, yet with a stubborn persistency I forged ahead toward the foothills.  Behind me no sign of pursuit developed, before me I saw no living thing.  It was as though I moved through a dead and forgotten world.</p>
+    <p class="piecemeal">
+        The case looked more and more hopeless the longer I viewed it, yet with a stubborn persistency I forged ahead toward thefoothills. Behind me no sign of pursuit developed, before me I saw no living thing. It was as though I moved througha dead and forgotten world.
+    </p>
 
     <p class="clear"></p>
   </div>
   <div>
-    <p>After the story we can have other paragraph content to continue on with the story or put footnotes etc. It seems we can control when the sticky element stops sticking by putting it in a bounding container.</p>
+    <p>
+        After the story we can have other paragraph content to continue on with the story or put footnotes etc. It seems we can control when the sticky element stops sticking by putting it in a bounding container.
+    </p>
     <p>
       This example includes code from <a href="https://codepen.io/dudleystorey/pen/yNxPRy">Dudley Storey's CodePen</a> and includes a polyfill by Oleg Korsunsky, however a fallback to position:fixed might be more desirable in future.
     </p>
-    
+
     <p>
       You can <a href="https://glitch.com/edit/#!/sticky">view the code</a> here.
     </p>
   </div>
 
-    <script src="js/index.js"></script>
+  <script src="js/index.js"></script>
 
 </body>
+
 </html>
